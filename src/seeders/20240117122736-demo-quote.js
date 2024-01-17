@@ -1,25 +1,20 @@
-generate 20 distinct quotes of category Entrepreneurship  as JavaScript Object with properties 
-quote , category property as  Entrepreneurship , createdAt: new Date(),updatedAt: new Date(),
+"use strict";
 
-
-INSPO WEBSITES : 
-1. https://blog.hubspot.com/marketing/design-quotes
-
-2. https://www.realthread.com/blog/51-design-and-creativity-quotes-guaranteed-to-inspire
-
-3. https://dribbble.com/tags/testimonials 
-
-4. https://in.pinterest.com/hiyaitstaylor/testimonial-design/
-
-
-
-
-
-
-
-
-
-     [
+/** @type {import('sequelize-cli').Migration} */
+module.exports = {
+  async up(queryInterface, Sequelize) {
+    /**
+     * Add seed commands here.
+     *
+     * Example:
+     * await queryInterface.bulkInsert('People', [{
+     *   name: 'John Doe',
+     *   isBetaMember: false
+     * }], {});
+     */
+    await queryInterface.bulkInsert(
+      "Quotes",
+      [
         {
           quote:
             "Success is not final, failure is not fatal: It is the courage to continue that counts.",
@@ -6135,3 +6130,17 @@ INSPO WEBSITES :
           updatedAt: new Date(),
         },
       ],
+      {}
+    );
+  },
+
+  async down(queryInterface, Sequelize) {
+    /**
+     * Add commands to revert seed here.
+     *
+     * Example:
+     * await queryInterface.bulkDelete('People', null, {});
+     */
+    await queryInterface.bulkDelete("Quotes", null, {});
+  },
+};

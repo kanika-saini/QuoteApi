@@ -47,6 +47,7 @@ CATEGORY = [
 43. reflection
 44. Humility
 45. Entrepreneurship
+46. Design 
 ]
 
 1. Success : 
@@ -1261,4 +1262,30 @@ const entrepreneurshipQuotes = [
 ];
 
 console.log(entrepreneurshipQuotes);
- 
+
+46. Design 
+
+const designQuotes = [
+  { quote: "Simplicity is the ultimate sophistication.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is not just what it looks like and feels like. Design is how it works.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Good design is obvious. Great design is transparent.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is thinking made visual.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Simplicity is the ultimate sophistication.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is not just what it looks like and feels like. Design is how it works.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Good design is obvious. Great design is transparent.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is thinking made visual.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "The details are not the details. They make the design.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Simplicity is the ultimate sophistication.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is not just what it looks like and feels like. Design is how it works.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Good design is obvious. Great design is transparent.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is thinking made visual.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "The details are not the details. They make the design.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Simplicity is the ultimate sophistication.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is not just what it looks like and feels like. Design is how it works.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Good design is obvious. Great design is transparent.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Design is thinking made visual.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "The details are not the details. They make the design.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+  { quote: "Simplicity is the ultimate sophistication.", category: "Design", createdAt: new Date(), updatedAt: new Date() },
+];
+
+console.log(designQuotes);
