@@ -1,0 +1,12 @@
+generate 20 distinct quotes of category Entrepreneurship  as JavaScript Object with properties 
+quote , category property as  Entrepreneurship , createdAt: new Date(),updatedAt: new Date(),
+
+
+INSPO WEBSITES : 
+1. https://blog.hubspot.com/marketing/design-quotes
+
+2. https://www.realthread.com/blog/51-design-and-creativity-quotes-guaranteed-to-inspire
+
+3. https://dribbble.com/tags/testimonials 
+
+4. https://in.pinterest.com/hiyaitstaylor/testimonial-design/
